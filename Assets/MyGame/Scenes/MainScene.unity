@@ -1053,6 +1053,8 @@ MonoBehaviour:
   ipVarA: {fileID: 412793916}
   ipVarB: {fileID: 944317922}
   result: {fileID: 1859197348}
+  btn_add: {fileID: 621407791}
+  btn_reset: {fileID: 941960729}
 --- !u!1 &1282619045
 GameObject:
   m_ObjectHideFlags: 0
