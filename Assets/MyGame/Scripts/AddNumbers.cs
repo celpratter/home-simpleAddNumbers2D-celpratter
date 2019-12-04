@@ -21,11 +21,19 @@ public class AddNumbers : MonoBehaviour
         btn_add.interactable = false;
         btn_reset.interactable = true;
     }
-
     private float NumbersAdd(float variableA, float variableB)
     {
         float result = variableA + variableB;
         return result;
     }
-
+    public void Reset()
+    {
+        ipVarA.text = "0";
+        ipVarB.text = "0";
+        result.text = "Result";
+        ipVarA.interactable = true;
+        ipVarB.interactable = true;
+        btn_add.interactable = true;
+        btn_reset.interactable = false;
+    }
 }
