@@ -1,6 +1,6 @@
 # home-simpleAddNumbers2D-celpratter
 
-###Development Platform
+### Development Platform
 
 - OS: MacOS 10.14.3
 - Unity Version: 2019.1.14f1
