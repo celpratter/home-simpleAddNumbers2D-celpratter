@@ -1,18 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AddNumbers : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public InputField ipVarA;
+    public InputField ipVarB;
+    public Text result;
+
+    public void SetResult()
     {
-        
+        float a = float.Parse(ipVarA.text);
+        float b = float.Parse(ipVarB.text);
+        result.text = NumbersAdd(a, b).ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    private float NumbersAdd(float variableA, float variableB)
     {
-        
+        float result = variableA + variableB;
+        return result;
     }
+
 }
